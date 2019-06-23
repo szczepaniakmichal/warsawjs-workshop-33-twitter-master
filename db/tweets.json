@@ -1,0 +1,54 @@
+{
+    "tweets": [
+      {
+        "id": "9651f19b-2254-5f12-8688-e8fb5319b7e8",
+        "created_time": "Thu Aug 16 2018 10:47:06 GMT+0200 (czas środkowoeuropejski letni)",
+        "author": {
+          "id": "19746d27-65ec-5123-9e07-89900db02ff5",
+          "name": "Queenie Walsh",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/thewillbeard/128.jpg"
+        },
+        "body": "Lezase wugjioku idpah fikaji amemacov vewod mohmo juc di cufduguv nawopomeh sej."
+      },
+      {
+        "id": "6691d00b-454b-5c85-acc9-1929bce489ee",
+        "created_time": "Sun Jul 22 2018 03:35:32 GMT+0200 (czas środkowoeuropejski letni)",
+        "author": {
+          "id": "b9528583-b423-5d9c-8d5d-7a8e06c1f5ac",
+          "name": "Ford Ward",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/robinlayfield/128.jpg"
+        },
+        "body": "Comom walun mojte gifi holmujiv igiacite ojodog ohwej mimset he be wejolino cetkovaz idjufnec womip buz laczahdi tongat."
+      },
+      {
+        "id": "c66ee3b5-442e-596c-a7a3-831371daa18f",
+        "created_time": "Mon Dec 03 2018 18:49:54 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "author": {
+          "id": "e0c066e5-88b0-549e-884d-abb3fe98756c",
+          "name": "Bailey Kiehn",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/wegotvices/128.jpg"
+        },
+        "body": "Gulad meufdoh pit ujlu ad opnikcu zad rusafa onnu lohaf aji kes."
+      },
+      {
+        "id": "815c7d88-2ed0-5578-a543-9b1d93b99ea9",
+        "created_time": "Wed Aug 08 2018 05:25:34 GMT+0200 (czas środkowoeuropejski letni)",
+        "author": {
+          "id": "b51527fe-dda6-5e3c-b78c-e15aa5f55771",
+          "name": "Olga Kessler",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/robinlayfield/128.jpg"
+        },
+        "body": "Uvdirot duv fojzih sihtevew tuncevuf piromwu fulna labfurov ogero otudugid edpu tafuckam hauvno vu ahomo uk fi."
+      },
+      {
+        "id": "a8760511-8e51-55f8-b000-8a60ffc4de25",
+        "created_time": "Tue Aug 28 2018 07:22:11 GMT+0200 (czas środkowoeuropejski letni)",
+        "author": {
+          "id": "ae754c82-bb52-5205-80fb-14c0e942a6a8",
+          "name": "Eli Rosenbaum",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/denisepires/128.jpg"
+        },
+        "body": "Cekafu iloemo wekej egedijo bitmoges wek rigofso entacze hew vejcire ime poltos koklovhow."
+      }
+    ]
+  }

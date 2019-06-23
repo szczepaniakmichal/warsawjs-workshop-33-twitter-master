@@ -1,6 +1,7 @@
 import { assert } from "chai";
 
 import App from '@/components/app';
+import nock from 'nock';
 import TweetList from '@/components/tweet-list';
 
 import { mount } from '@vue/test-utils';
@@ -23,5 +24,37 @@ suite('App', () => {
         });
         assert.ok(wrapper.contains(TweetList));
     });
+
+    it('should fetch tweets via HTTP request', async () => {
+        const wrapper = mount(App, {
+            stubs: {
+                Tweet: true
+            }
+        });
+
+        // @ts-ignore
+        assert.isFunction(wrapper.vm.fetchTweets);
+
+        // @ts-ignore
+        const ft = wrapper.vm.fetchTweets;
+
+        nock("http://localhost:3000")
+
+            .get('/tweets')
+
+            .reply(200, [
+
+                { id: 'id', body: 'body' }
+
+            ]);
+
+        const response = await ft();
+
+        console.log(response); // JSON
+
+        assert.lengthOf(response, 1);
+    });
 });
+
+
 
