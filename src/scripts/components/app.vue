@@ -5,6 +5,7 @@
 </template>
 
 <script>
+
 import TweetList from '@/components/tweet-list';
 export default {
     name: 'App',
