@@ -1,19 +1,15 @@
 <template>
     <div>
-        <Tweet></Tweet>
-        <Tweet></Tweet>
-        <Tweet></Tweet>
-        <Tweet></Tweet>
-        <Tweet></Tweet>
-    </div>
+        <TweetList/>
+    </div>   
 </template>
 
 <script>
-import Tweet from '@/components/tweet';
+import TweetList from '@/components/tweet-list';
 export default {
     name: 'App',
     components: {
-        Tweet
+        TweetList
     }
 }
 </script>
